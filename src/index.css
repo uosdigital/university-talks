@@ -1,0 +1,330 @@
+/* Local font imports using TTF files */
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Source Serif Pro font faces - you'll need to add these TTF files */
+@font-face {
+  font-family: 'Source Serif Pro';
+  src: url('./fonts/SourceSerifPro-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  src: url('./fonts/SourceSerifPro-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  src: url('./fonts/SourceSerifPro-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  src: url('./fonts/SourceSerifPro-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Force correct aspect ratio for 1080x1920 */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  aspect-ratio: 1080/1920;
+  max-width: 1080px;
+  max-height: 1920px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* Preview mode for 1080x1920 touchscreen */
+@media screen and (min-width: 1080px) {
+  .touchscreen-preview {
+    max-width: 1080px;
+    max-height: 1920px;
+    margin: 0 auto;
+    border: 4px solid #333;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 50px rgba(0,0,0,0.5);
+  }
+}
+
+/* Full screen mode for actual touchscreen */
+@media screen and (max-width: 1080px) {
+  .touchscreen-preview {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+/* Animated gradient backgrounds */
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient-shift-reverse {
+  0% {
+    background-position: 100% 50%;
+  }
+  50% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes gradient-shift-slow {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+.animate-gradient-shift {
+  background-size: 200% 200%;
+  animation: gradient-shift 8s ease infinite;
+}
+
+.animate-gradient-shift-reverse {
+  background-size: 200% 200%;
+  animation: gradient-shift-reverse 12s ease infinite;
+}
+
+.animate-gradient-shift-slow {
+  background-size: 300% 300%;
+  animation: gradient-shift-slow 15s ease infinite;
+}
+
+/* Animated border rails (Button N° 045 style) */
+.cta-rails {
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-rails span {
+  position: absolute;
+}
+
+.cta-rails span:nth-child(1) {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background: linear-gradient(to left, rgba(8, 26, 43, 0), #3BD4AE);
+  box-shadow: 0 0 12px rgba(59, 212, 174, 0.8);
+  animation: animateTop 2s linear infinite;
+}
+
+@keyframes animateTop {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.cta-rails span:nth-child(2) {
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 6px;
+  background: linear-gradient(to top, rgba(8, 26, 43, 0), #3BD4AE);
+  box-shadow: 0 0 12px rgba(59, 212, 174, 0.8);
+  animation: animateRight 2s linear -1s infinite;
+}
+
+@keyframes animateRight {
+  0% { transform: translateY(100%); }
+  100% { transform: translateY(-100%); }
+}
+
+.cta-rails span:nth-child(3) {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background: linear-gradient(to right, rgba(8, 26, 43, 0), #3BD4AE);
+  box-shadow: 0 0 12px rgba(59, 212, 174, 0.8);
+  animation: animateBottom 2s linear infinite;
+}
+
+@keyframes animateBottom {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.cta-rails span:nth-child(4) {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 6px;
+  background: linear-gradient(to bottom, rgba(8, 26, 43, 0), #3BD4AE);
+  box-shadow: 0 0 12px rgba(59, 212, 174, 0.8);
+  animation: animateLeft 2s linear -1s infinite;
+}
+
+@keyframes animateLeft {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+
+/* Breathe effect for CTA using #3BD4AE */
+.cta-breathe {
+  animation: breathe-cta 3s ease-in-out infinite;
+}
+
+@keyframes breathe-cta {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 10px 28px rgba(59, 212, 174, 0.25);
+  }
+  50% {
+    transform: scale(1.02);
+    box-shadow: 0 14px 48px rgba(59, 212, 174, 0.45);
+  }
+}
+
+/* Scroll fade container - fade applied to entire two-column grid */
+.scroll-fade-container {
+  position: relative;
+}
+
+/* Apply fade mask to the container when active */
+.scroll-fade-container.scroll-fade-active {
+  --fade: 120px;
+  /* fallback: simple linear mask for broad compatibility */
+  -webkit-mask-image: linear-gradient(to bottom, #000 0, #000 calc(100% - var(--fade)), rgba(0,0,0,0) 100%);
+  mask-image: linear-gradient(to bottom, #000 0, #000 calc(100% - var(--fade)), rgba(0,0,0,0) 100%);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  will-change: -webkit-mask-image, mask-image;
+}
+
+/* Remove previous overlay on inner container to avoid double fade */
+.max-w-4xl::after { display: none; }
