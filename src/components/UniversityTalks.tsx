@@ -11,7 +11,7 @@ type Talk = {
   location: string;
 };
 
-const OPEN_DAY_DATE = '2026-06-20'; // Ensure all times mapped to same date (Europe/London)
+const OPEN_DAY_DATE = '2026-07-04'; // Ensure all times mapped to same date (Europe/London)
 const LONDON_CLOCK_FORMATTER = new Intl.DateTimeFormat('en-GB', {
   timeZone: 'Europe/London',
   hour: 'numeric',
@@ -245,7 +245,7 @@ const UniversityTalks: React.FC = () => {
                   {formatLondonClock(now)}
                 </p>
               </div>
-              <p className="text-gray-200 text-4xl my-4">Saturday 20 June 2026</p>
+              <p className="text-gray-200 text-4xl my-4">Saturday 4 July 2026</p>
               <p className="text-gray-200 text-2xl my-4">Scroll down for more</p>
             </div>
           </div>
