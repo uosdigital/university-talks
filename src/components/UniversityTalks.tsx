@@ -12,6 +12,16 @@ type Talk = {
 };
 
 const OPEN_DAY_DATE = '2026-06-20'; // Ensure all times mapped to same date (Europe/London)
+const LONDON_CLOCK_FORMATTER = new Intl.DateTimeFormat('en-GB', {
+  timeZone: 'Europe/London',
+  hour: 'numeric',
+  minute: '2-digit',
+  hour12: true,
+});
+
+function formatLondonClock(date: Date): string {
+  return LONDON_CLOCK_FORMATTER.format(date);
+}
 
 // Build a Date for a Europe/London wall-clock time on OPEN_DAY_DATE regardless of device tz
 function makeEuropeLondonDateForOpenDay(hour: number, minute: number): Date {
@@ -93,7 +103,7 @@ const UniversityTalks: React.FC = () => {
   useEffect(() => {
     const update = () => setNow(new Date());
     update();
-    const i = setInterval(update, 5_000);
+    const i = setInterval(update, 1_000);
     const onVisibility = () => { if (!document.hidden) update(); };
     window.addEventListener('focus', update);
     document.addEventListener('visibilitychange', onVisibility);
@@ -225,7 +235,16 @@ const UniversityTalks: React.FC = () => {
               <div className="w-full h-[3px] bg-white/80"></div>
             </div>
             <div className="flex-shrink-0 my-10">
-              <h1 className="text-white text-5xl font-source-serif-pro font-bold">University talks</h1>
+              <div className="flex items-center justify-between gap-8">
+                <h1 className="text-white text-5xl font-source-serif-pro font-bold">University talks</h1>
+                <p
+                  className="text-white text-5xl font-source-serif-pro font-bold tabular-nums drop-shadow-lg text-right"
+                  aria-live="off"
+                  aria-label={`Current UK time ${formatLondonClock(now)}`}
+                >
+                  {formatLondonClock(now)}
+                </p>
+              </div>
               <p className="text-gray-200 text-4xl my-4">Saturday 20 June 2026</p>
               <p className="text-gray-200 text-2xl my-4">Scroll down for more</p>
             </div>
