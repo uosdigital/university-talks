@@ -142,5 +142,13 @@
     "start_time": "12:30pm",
     "end_time": "12:50pm",
     "location": "Council Room, Firth Court"
+  },
+  {
+    "id": 19,
+    "title": "Degrees with a foundation year for mature students",
+    "subtitle": "For learners aged 21+, hear about our degrees with a foundation year, including entry requirements, application guidance, and insights from current students.",
+    "start_time": "2:30pm",
+    "end_time": "2:50pm",
+    "location": "Council Room, Firth Court"
   }
 ]
