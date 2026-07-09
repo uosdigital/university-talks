@@ -1,0 +1,78 @@
+{
+  "date": "Friday 24 July 2026",
+  "slots": [
+    {
+      "time": "9.30am",
+      "entries": [
+        {
+          "faculty": "Faculty of Science",
+          "schools": [
+            {
+              "name": "School of Biosciences",
+              "programmes": [
+                "Biochemistry",
+                "Biochemistry with Employment Experience",
+                "Biochemistry and Genetics",
+                "Biochemistry and Genetics with Year in industry",
+                "Biochemistry and Microbiology",
+                "Biochemistry and Microbiology with Employment Experience",
+                "Biochemistry with Placement Year",
+                "Biochemistry with a Year in Industry",
+                "Biochemistry with Study Abroad",
+                "Genetics",
+                "Genetics with a Year in Industry",
+                "Medical Biochemistry",
+                "Medical Genetics",
+                "Medical Genetics with Study Abroad",
+                "Medical Microbiology",
+                "Microbiology",
+                "Molecular Biology",
+                "Molecular Biology with a Year in Industry"
+              ]
+            }
+          ]
+        },
+        {
+          "faculty": "Faculty of Engineering",
+          "schools": ["School of Chemical, Materials and Biological Engineering"]
+        }
+      ]
+    },
+    {
+      "time": "12.00 noon",
+      "entries": [
+        {
+          "faculty": "Faculty of Science",
+          "schools": [
+            {
+              "name": "School of Biosciences",
+              "programmes": [
+                "Biology",
+                "Biology with Placement Year",
+                "Biology with Study Abroad",
+                "Biomedical Science",
+                "Biomedical Science with Year Abroad",
+                "Biomedical Science with Year In Industry",
+                "Ecology and Conservation Biology",
+                "Ecology and Conservation Biology with Placement Year",
+                "Ecology and Conservation Biology with Study Abroad",
+                "Plant Sciences",
+                "Zoology",
+                "Zoology with Placement Year"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "time": "3.30pm",
+      "entries": [
+        {
+          "faculty": "Faculty of Engineering",
+          "schools": ["School of Electrical and Electronic Engineering"]
+        }
+      ]
+    }
+  ]
+}

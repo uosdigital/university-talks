@@ -1,0 +1,30 @@
+{
+  "date": "Thursday 23 July 2026",
+  "receptions": [
+    {
+      "school": "School of Economics",
+      "sessions": [
+        { "time": "1.30pm-3.30pm", "location": "Marquee, Firth Court Quad" }
+      ]
+    },
+    {
+      "school": "Management School",
+      "sessions": [
+        { "time": "1.30pm-3.30pm", "location": "Firth Hall, Firth Court" }
+      ]
+    },
+    {
+      "school": "AMRC",
+      "sessions": [
+        { "time": "3.30pm to 5.30pm", "location": "Inox, Students' Union" }
+      ]
+    },
+    {
+      "school": "School of Mechanical, Aerospace and Civil Engineering",
+      "sessions": [
+        { "time": "from 4.15pm", "location": "Marquee, Firth Court Quad" },
+        { "time": "from 4.30pm", "location": "Firth Hall, Firth Court" }
+      ]
+    }
+  ]
+}

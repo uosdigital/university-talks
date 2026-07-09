@@ -1,0 +1,106 @@
+{
+  "date": "Thursday 23 July 2026",
+  "slots": [
+    {
+      "time": "9.30am",
+      "entries": [
+        {
+          "faculty": "Faculty of Social Sciences",
+          "schools": [
+            {
+              "name": "Management School",
+              "programmes": [
+                "Business Management",
+                "Business Management and Economics FT",
+                "Business Management and Economics with Placement Year",
+                "Business Management and Japanese Studies",
+                "Business Management with Placement Year",
+                "International Business Management with Study Abroad",
+                "International Business Management with Study Abroad with Placement Year"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "time": "12.00 noon",
+      "entries": [
+        {
+          "honorary": "Honorary Graduate, Dame Kate Barker (Hon LittD)"
+        },
+        {
+          "faculty": "Faculty of Social Sciences",
+          "schools": [
+            {
+              "name": "Management School",
+              "programmes": [
+                "Accounting and Financial Management",
+                "Accounting and Financial Management and Economics FT",
+                "Accounting and Financial Management and Economics with Placement Year",
+                "Accounting and Financial Management with Placement Year"
+              ]
+            },
+            "School of Economics"
+          ]
+        }
+      ]
+    },
+    {
+      "time": "3.30pm",
+      "entries": [
+        {
+          "faculty": "Faculty of Engineering",
+          "schools": [
+            {
+              "name": "School of Mechanical, Aerospace and Civil Engineering",
+              "programmes": [
+                "Aerospace Engineering",
+                "Aerospace Engineering FT",
+                "Aerospace and Civil and Structural Engineering",
+                "Aerospace Engineering (Private Pilot Instruction) FT",
+                "Aerospace Engineering with Year 3 in Industry",
+                "Aerospace Engineering with Year in Industry",
+                "Aerospace Engineering with Year in North America",
+                "Architectural Engineering",
+                "Architectural Engineering with Year in Industry",
+                "Civil Engineering",
+                "Civil Engineering with Study Abroad",
+                "Civil Engineering with Year in Industry",
+                "Civil and Structural Engineering",
+                "Civil and Structural Engineering with Study Abroad",
+                "Civil and Structural Engineering with Year in Industry",
+                "Structural  Engineering and Architecture",
+                "Structural Engineering with Architectural Studies",
+                "Structural Engineering and Architecture with Year in Industry"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "time": "6.00pm",
+      "entries": [
+        {
+          "faculty": "Faculty of Engineering",
+          "schools": [
+            {
+              "name": "School of Mechanical, Aerospace and Civil Engineering",
+              "programmes": [
+                "Mechanical Engineering",
+                "Mechanical Engineering with Biomechanics FT",
+                "Mechanical Engineering with Biomechanics with Year in Industry",
+                "Mechanical Engineering (N America)",
+                "Mechanical Engineering with Year Abroad",
+                "Mechanical Engineering with Year in Industry",
+                "Mechanical Engineering with Year 3 in Industry"
+              ]
+            },
+            "AMRC"
+          ]
+        }
+      ]
+    }
+  ]
+}

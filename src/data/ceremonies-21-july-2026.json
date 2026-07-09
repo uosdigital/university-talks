@@ -1,0 +1,47 @@
+{
+  "date": "Tuesday 21 July 2026",
+  "slots": [
+    {
+      "time": "9.30am",
+      "entries": [
+        {
+          "faculty": "Faculty of Engineering",
+          "schools": ["School of Computer Science"]
+        }
+      ]
+    },
+    {
+      "time": "12.00 noon",
+      "entries": [
+        {
+          "honorary": "Honorary Graduate, Geoffrey Garnett (Hon MD)"
+        },
+        {
+          "faculty": "Faculty of Health",
+          "schools": ["School of Medicine and Population Health"]
+        }
+      ]
+    },
+    {
+      "time": "3.30pm",
+      "entries": [
+        {
+          "faculty": "Faculty of Health",
+          "schools": [
+            "School of Allied Health Professions Nursing and Midwifery",
+            "School of Clinical Dentistry"
+          ]
+        }
+      ]
+    },
+    {
+      "time": "6.00pm",
+      "entries": [
+        {
+          "faculty": "Faculty of Social Sciences",
+          "schools": ["School of Sociological Studies, Politics and International Relations"]
+        }
+      ]
+    }
+  ]
+}

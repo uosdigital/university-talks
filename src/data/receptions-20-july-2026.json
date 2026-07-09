@@ -1,0 +1,38 @@
+{
+  "date": "Monday 20 July 2026",
+  "receptions": [
+    {
+      "school": "School of Law",
+      "sessions": [
+        { "time": "11am-12.30pm", "location": "Marquee, Firth Court Quad" },
+        { "time": "11am-12.30pm", "location": "Firth Hall, Firth Court" }
+      ]
+    },
+    {
+      "school": "School of Psychology",
+      "sessions": [
+        { "time": "1pm to 3pm", "location": "Firth Hall, Firth Court" }
+      ]
+    },
+    {
+      "school": "School of Information, Journalism and Communications",
+      "sessions": [
+        { "time": "1.30pm to 3pm", "location": "Marquee, Firth Court Quad" }
+      ]
+    },
+    {
+      "school": "School of Architecture and Landscape",
+      "sessions": [
+        { "time": "1.30pm to 3pm", "location": "The Well, Arts Tower", "detail": "MArch/PhD" },
+        { "time": "2.30pm to 4pm", "location": "Floor 12, Arts Tower", "detail": "Undergraduate Landscape" },
+        { "time": "3.30pm to 5pm", "location": "The Well, Arts Tower", "detail": "Undergraduate Architecture" }
+      ]
+    },
+    {
+      "school": "School of Geography and Planning",
+      "sessions": [
+        { "time": "2-4pm", "location": "Inox, Students' Union" }
+      ]
+    }
+  ]
+}

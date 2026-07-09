@@ -1,0 +1,35 @@
+{
+  "date": "Tuesday 21 July 2026",
+  "receptions": [
+    {
+      "school": "School of Computer Science",
+      "sessions": [
+        { "time": "11am to 12.30pm", "location": "Firth Hall, Firth Court" }
+      ]
+    },
+    {
+      "school": "School of Clinical Dentistry",
+      "sessions": [
+        { "time": "1pm to 3pm", "location": "Seminar Rooms 3 & 4, Dental School" }
+      ]
+    },
+    {
+      "school": "School of Allied Health Professions, Pharmacy, Nursing and Midwifery",
+      "sessions": [
+        { "time": "1.30pm to 3pm", "location": "Firth Hall, Firth Court" }
+      ]
+    },
+    {
+      "school": "School of Medicine and Population Health",
+      "sessions": [
+        { "time": "1.30pm to 3pm", "location": "Marquee, Firth Court Quad" }
+      ]
+    },
+    {
+      "school": "School of Sociological Studies, Politics and International Relations",
+      "sessions": [
+        { "time": "4pm to 5.30pm", "location": "Marquee, Firth Court" }
+      ]
+    }
+  ]
+}

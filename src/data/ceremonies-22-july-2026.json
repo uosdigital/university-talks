@@ -1,0 +1,45 @@
+{
+  "date": "Wednesday 22 July 2026",
+  "slots": [
+    {
+      "time": "9.30am",
+      "entries": [
+        {
+          "faculty": "Faculty of Arts and Humanities",
+          "schools": ["School of History, Philosophy and Digital Humanities"]
+        }
+      ]
+    },
+    {
+      "time": "12.00 noon",
+      "entries": [
+        {
+          "honorary": "Honorary Graduate, Johny Pitts (Hon LittD)"
+        },
+        {
+          "faculty": "Faculty of Arts and Humanities",
+          "schools": [
+            "School of English",
+            "School of Languages, Arts and Societies"
+          ]
+        }
+      ]
+    },
+    {
+      "time": "3.30pm",
+      "entries": [
+        {
+          "honorary": "Honorary Graduate, Sue Horne (Hon DSc)"
+        },
+        {
+          "faculty": "Faculty of Science",
+          "schools": ["School of Mathematics and Physical Sciences"]
+        },
+        {
+          "faculty": "Faculty of Social Science",
+          "schools": ["School of Education"]
+        }
+      ]
+    }
+  ]
+}

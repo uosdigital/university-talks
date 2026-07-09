@@ -1,0 +1,48 @@
+{
+  "date": "Monday 20 July 2026",
+  "slots": [
+    {
+      "time": "9.30am",
+      "entries": [
+        {
+          "faculty": "Faculty of Arts and Humanities",
+          "schools": ["School of Law"]
+        }
+      ]
+    },
+    {
+      "time": "12.00 noon",
+      "entries": [
+        {
+          "honorary": "Honorary Graduate, Paul Blomfield (Hon LittD)"
+        },
+        {
+          "faculty": "Faculty of Social Sciences",
+          "schools": ["School of Geography and Planning"]
+        }
+      ]
+    },
+    {
+      "time": "3.30pm",
+      "entries": [
+        {
+          "faculty": "Faculty of Science",
+          "schools": ["School of Psychology"]
+        },
+        {
+          "faculty": "Faculty of Social Sciences",
+          "schools": ["School of Information, Journalism and Communication"]
+        }
+      ]
+    },
+    {
+      "time": "6.00pm",
+      "entries": [
+        {
+          "faculty": "Faculty of Social Sciences",
+          "schools": ["School of Architecture and Landscape"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "date": "Wednesday 22 July 2026",
+  "receptions": [
+    {
+      "school": "School of English",
+      "sessions": [
+        { "time": "9.30am to 11.30am", "location": "Firth Hall, Firth Court" }
+      ]
+    },
+    {
+      "school": "School of History, Philosophy & Digital Humanities",
+      "sessions": [
+        { "time": "11am to 12.30pm", "location": "Marquee, Firth Court Quad" }
+      ]
+    },
+    {
+      "school": "School of Education",
+      "sessions": [
+        { "time": "1.30pm-3pm", "location": "Workroom 1, The Wave Foyer Space" }
+      ]
+    },
+    {
+      "school": "School of Languages, Arts and Societies",
+      "sessions": [
+        { "time": "1.30pm-3.30pm", "location": "Marquee, Firth Court Quad" }
+      ]
+    },
+    {
+      "school": "School of Mathematical and Physical Sciences",
+      "sessions": [
+        { "time": "5pm to 7pm", "location": "Firth Hall, Firth Court and Marquee, Firth Court Quad" }
+      ]
+    }
+  ]
+}

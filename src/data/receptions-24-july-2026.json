@@ -1,0 +1,38 @@
+{
+  "date": "Friday 24 July 2026",
+  "receptions": [
+    {
+      "school": "School of Biosciences",
+      "detail": "Molecular Biology and Biotechnology",
+      "sessions": [
+        { "time": "11am-12.30pm", "location": "Inox, Students' Union" }
+      ]
+    },
+    {
+      "school": "School of Chemical, Materials and Biological Engineering",
+      "sessions": [
+        { "time": "11am to 12.30pm", "location": "Firth Hall, Firth Court and Marquee, Firth Court Quad" }
+      ]
+    },
+    {
+      "school": "School of Biosciences",
+      "detail": "Animal and Plant Sciences",
+      "sessions": [
+        { "time": "1.30pm to 3pm", "location": "Firth Hall, Firth Court" }
+      ]
+    },
+    {
+      "school": "School of Biosciences",
+      "detail": "Biomedical Science",
+      "sessions": [
+        { "time": "1.30pm to 3pm", "location": "The Wave, Foyer Space" }
+      ]
+    },
+    {
+      "school": "School of Electrical and Electronic Engineering",
+      "sessions": [
+        { "time": "1.30pm to 3pm", "location": "Marquee, Firth Court Quad" }
+      ]
+    }
+  ]
+}
