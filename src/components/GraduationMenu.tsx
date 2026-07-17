@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 const MENU_ITEMS = [
   { label: 'Graduation ceremonies', path: '/ceremonies' },
   { label: 'School receptions', path: '/receptions' },
+  { label: 'Further information', path: '/further-information' },
 ];
 
 const SOCIAL_LINKS = [
@@ -56,11 +57,11 @@ const GraduationMenu: React.FC = () => {
         </div>
 
         <div className="w-full max-w-full flex-shrink-0">
-          <p className="mb-8 text-center text-[2.125rem] font-source-sans-pro font-normal leading-snug text-balance">
+          <p className="mb-12 text-center text-[2.125rem] font-source-sans-pro font-normal leading-snug text-balance">
             Use the buttons below to check our timetables for ceremonies and school receptions:
           </p>
 
-          <nav aria-label="Graduation schedules" className="flex w-full flex-col gap-6">
+          <nav aria-label="Graduation schedules" className="flex w-full flex-col gap-8">
             {MENU_ITEMS.map((item) => (
               <Link
                 key={item.path}

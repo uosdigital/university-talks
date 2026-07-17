@@ -5,6 +5,7 @@ import GraduationCeremoniesOverview from './components/GraduationCeremoniesOverv
 import GraduationSchedule from './components/GraduationSchedule';
 import SchoolReceptions from './components/SchoolReceptions';
 import SchoolReceptionsOverview from './components/SchoolReceptionsOverview';
+import GraduationFurtherInfo from './components/GraduationFurtherInfo';
 import ceremonies20July2026 from './data/ceremonies-20-july-2026.json';
 import ceremonies21July2026 from './data/ceremonies-21-july-2026.json';
 import ceremonies22July2026 from './data/ceremonies-22-july-2026.json';
@@ -34,6 +35,7 @@ export default function App() {
         <Route path="/receptions/22-july-2026" element={<SchoolReceptions day={receptions22July2026} />} />
         <Route path="/receptions/23-july-2026" element={<SchoolReceptions day={receptions23July2026} />} />
         <Route path="/receptions/24-july-2026" element={<SchoolReceptions day={receptions24July2026} />} />
+        <Route path="/further-information" element={<GraduationFurtherInfo />} />
       </Routes>
     </BrowserRouter>
   );
