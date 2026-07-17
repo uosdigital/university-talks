@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
+import PageHeader from './PageHeader';
 import receptions20July2026 from '../data/receptions-20-july-2026.json';
 import receptions21July2026 from '../data/receptions-21-july-2026.json';
 import receptions22July2026 from '../data/receptions-22-july-2026.json';
@@ -22,12 +23,7 @@ const SchoolReceptionsOverview: React.FC = () => {
       style={{ backgroundColor: '#24135F' }}
     >
       <header className="w-full flex-shrink-0 px-14 pt-14">
-        <div className="mb-6">
-          <img src="/uos-logo-white.png" alt="University of Sheffield" className="h-20 w-auto max-w-full" />
-        </div>
-        <div className="mb-6">
-          <div className="h-[3px] w-full bg-white/80" />
-        </div>
+        <PageHeader backTo="/menu" backLabel="Back to menu" />
         <div className="mb-8 mt-12">
           <h1 className="break-words text-[2.8125rem] font-source-serif-pro font-bold leading-tight">
             School receptions

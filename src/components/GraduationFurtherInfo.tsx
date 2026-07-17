@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
+import PageHeader from './PageHeader';
 
 const GraduationFurtherInfo: React.FC = () => {
   return (
@@ -9,12 +10,7 @@ const GraduationFurtherInfo: React.FC = () => {
       style={{ backgroundColor: '#24135F' }}
     >
       <header className="w-full flex-shrink-0 px-14 pt-14">
-        <div className="mb-6">
-          <img src="/uos-logo-white.png" alt="University of Sheffield" className="h-20 w-auto max-w-full" />
-        </div>
-        <div className="mb-6">
-          <div className="h-[3px] w-full bg-white/80" />
-        </div>
+        <PageHeader backTo="/menu" backLabel="Back to menu" />
         <div className="mb-4 mt-12 text-center">
           <h1 className="break-words text-[2.8125rem] font-source-serif-pro font-bold leading-tight">
             Further information
