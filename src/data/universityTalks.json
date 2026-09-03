@@ -75,32 +75,32 @@
     "id": 10,
     "title": "Sport and physical activity at Sheffield",
     "subtitle": "Everything you need to know about sports, fitness & physical activity at the University.",
-    "start_time": "10:15am",
-    "end_time": "10:35am",
+    "start_time": "10:45am",
+    "end_time": "11:05am",
     "location": "Council Room, Firth Court"
   },
   {
     "id": 11,
     "title": "Sport and physical activity at Sheffield",
     "subtitle": "Everything you need to know about sports, fitness & physical activity at the University.",
-    "start_time": "1:00pm",
-    "end_time": "1:20pm",
+    "start_time": "1:15pm",
+    "end_time": "1:35pm",
     "location": "Council Room, Firth Court"
   },
   {
     "id": 12,
     "title": "Funding your studies",
     "subtitle": "All the information you need about fees and finance for university.",
-    "start_time": "10:45am",
-    "end_time": "11:05am",
+    "start_time": "11:15am",
+    "end_time": "11:35am",
     "location": "Council Room, Firth Court"
   },
   {
     "id": 13,
     "title": "Funding your studies",
     "subtitle": "All the information you need about fees and finance for university.",
-    "start_time": "1:30pm",
-    "end_time": "1:50pm",
+    "start_time": "1:45pm",
+    "end_time": "2:05pm",
     "location": "Council Room, Firth Court"
   },
   {
@@ -123,32 +123,32 @@
     "id": 16,
     "title": "All about starting university: a guide for parents and supporters",
     "subtitle": "Find out about the application process and practical information about guiding your child through the process of starting university.",
-    "start_time": "11:30am",
-    "end_time": "11:50am",
+    "start_time": "11:45am",
+    "end_time": "12:05pm",
     "location": "Council Room, Firth Court"
   },
   {
     "id": 17,
     "title": "Applying to University",
     "subtitle": "Learn all about how to navigate the UCAS application process and all of the key dates.",
-    "start_time": "12:00pm",
-    "end_time": "12:20pm",
+    "start_time": "12:15pm",
+    "end_time": "12:35pm",
     "location": "Council Room, Firth Court"
   },
   {
     "id": 18,
     "title": "Languages for all: Learning a language alongside your degree",
     "subtitle": "Learn how you can experience language learning at University even if you're not planning to study a language degree.",
-    "start_time": "12:30pm",
-    "end_time": "12:50pm",
+    "start_time": "12:45pm",
+    "end_time": "1:05pm",
     "location": "Council Room, Firth Court"
   },
   {
     "id": 19,
     "title": "Degrees with a foundation year for mature students",
     "subtitle": "For learners aged 21+, hear about our degrees with a foundation year, including entry requirements, application guidance, and insights from current students.",
-    "start_time": "2:30pm",
-    "end_time": "2:50pm",
+    "start_time": "10:15am",
+    "end_time": "10:35am",
     "location": "Council Room, Firth Court"
   }
 ]
