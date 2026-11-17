@@ -11,7 +11,7 @@ type Talk = {
   location: string;
 };
 
-const OPEN_DAY_DATE = '2026-10-17'; // Ensure all times mapped to same date (Europe/London)
+const OPEN_DAY_DATE = '2026-11-21'; // Ensure all times mapped to same date (Europe/London)
 
 // Build a Date for a Europe/London wall-clock time on OPEN_DAY_DATE regardless of device tz
 function makeEuropeLondonDateForOpenDay(hour: number, minute: number): Date {
@@ -226,7 +226,7 @@ const UniversityTalks: React.FC = () => {
             </div>
             <div className="flex-shrink-0 my-10">
               <h1 className="text-white text-5xl font-source-serif-pro font-bold">University talks</h1>
-              <p className="text-gray-200 text-4xl my-4">Saturday 17 October 2026</p>
+              <p className="text-gray-200 text-4xl my-4">Saturday 21 November 2026</p>
               <p className="text-gray-200 text-2xl my-4">Scroll down for more</p>
             </div>
           </div>
